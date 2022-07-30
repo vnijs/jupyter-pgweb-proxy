@@ -34,7 +34,7 @@ def setup_pgweb():
 
     return {
         "command": _get_pgweb_command,
-        "timeout": 20,
+        "timeout": 30,
         "new_browser_tab": True,
         "launcher_entry": {"title": "pgweb", "icon_path": _get_icon_path()},
     }
